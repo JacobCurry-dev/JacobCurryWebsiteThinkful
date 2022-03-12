@@ -1,3 +1,5 @@
+/* heading one (most important) */
+
 h1{
   color: #553739;
   text-align: center;
@@ -5,9 +7,13 @@ h1{
   font-family: 'Georgia', serif;
 }
 
+/* background color for entire body */
+
 body {
   background-color: #dcd7d0;
 }
+
+/* formatting for diamond shaped 'hr's' */
 
 hr {
   height: 30px;
@@ -20,12 +26,16 @@ hr {
   padding: 5px;
 }
 
+/* heading two (second most important) */
+
 h2 {
   color: #553739;
   text-align: center;
   font-size: 24px;
   font-family: 'Georgia', serif;
 }
+
+/* heading three (least important) */
 
 h3 {
   color: #553739;
@@ -34,11 +44,15 @@ h3 {
   font-family: 'Georgia', serif;
 }
 
+/* color and alignment for all paragraphs */
+
 p {
   color: #0b4f6c;
   text-align: center;
   
 }
+
+/* link formatting ahead */
 
 a {
   font-family: 'Georgia', serif;
@@ -50,16 +64,20 @@ a:visited { color: #828687;}
 a:hover { color: #42bdff;}
 a: active { color: #0b3aa8;}
 
+/* coloring for contact links */
+
 .contact-links {
   color: #42bdff;
   font-size: 18px;
 }
 
+/* body margins */
 body {
   margin-left: 500px;
   margin-right: 500px;
 }
 
+/* navigation container alignment */
 nav {
   text-align: center;
 }
@@ -69,9 +87,13 @@ ul {
   color: #0b4f6c;
 }
 
+/* formatting for all articles */
+
 article {
     color: #0b4f6c;
 }
+
+/* image size changes and margin changes */
 
 .image {
   margin-left: auto;
@@ -80,6 +102,7 @@ article {
   width: 100%;
 }
 
+/* footer formatting */
 footer {
   padding: 20px;
   background: #553739;
